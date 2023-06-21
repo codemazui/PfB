@@ -1,0 +1,16 @@
+# import module as namespace
+import helpers
+helpers.display('Not a warning')
+
+# import all into current namespace
+from helpers import *
+display('Not a warning')
+
+# import specific items into current namespace
+from helpers import display
+display('Not a warning')
+
+
+# Packages are published colections of modules
+# google "python package index" for list
+# to install a package write at terminal "pip install nameofthepackage"

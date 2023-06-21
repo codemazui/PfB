@@ -1,0 +1,6 @@
+pip install virtualenv
+
+python -m venv venv
+
+#powershell
+venv\Scripts\Activate.ps1

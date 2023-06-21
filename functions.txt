@@ -1,0 +1,19 @@
+def function_name(parameter):
+    # code to execute
+    return value
+
+# Parameters can be assigned a default value making them optional when the function is called
+def function_name(parameter=default):
+    # code to execute
+    return value
+
+# When you call a function you may specify the values for the parameters using positional or named notation
+def function_name(parameter1, parameter2):
+    # code to execute
+    return value
+
+# Positional notation pass in arguments in same order as parameters are declared
+result = function_name(value1,value2)
+
+# Named notation
+result = function_name(parameter1=value1, parameter2=value2)
