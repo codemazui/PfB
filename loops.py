@@ -19,3 +19,14 @@ index = 0
 while index < len(names):
     print(names[index])
     index = index + 1
+
+
+#break and continue
+while True:
+     line = input("> ")
+     if line[0] == "#":
+          continue #this skips every thing below and goes back to the beguining of the loop
+     if line[0] == "done":
+          break # this guets you out of the loop
+     print(line)
+print("Done!")
