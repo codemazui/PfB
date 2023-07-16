@@ -32,6 +32,21 @@ print(tax)
 print()
 
 
+#same but using match
+province = input("What province do you live in? ")
+tax = 0
+
+match province:
+	case 'Alberta' | 'Nunavut' | 'Yukon':
+		tax = 0.05
+	case 'Ontario':
+		tax = 0.13
+	case _:
+		tax = 0.15
+print(tax)
+print()
+
+
 country = input("What country do you live in? ")
 
 if country.lower() == 'canada':
